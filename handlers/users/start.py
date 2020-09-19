@@ -1,9 +1,26 @@
 from aiogram import types
 from aiogram.dispatcher.filters.builtin import CommandStart
+from filters import IsPrivate
+from loader import dp
+from re import compile
 
 from loader import dp
 
 
-@dp.message_handler(CommandStart())
+@dp.message_handler(CommandStart(deep_link=compile(r"\d\d\d")), IsPrivate())
+async def bot_start_deeplink(message: types.Message):
+    deep_link_link = message.get_args()
+    await message.answer(f'Привет, {message.from_user.full_name}!\n'
+                         f'Вы находитесь в личной переписке. \n'
+                         f'В вашей команде есть диплинк\n'
+                         f'Вы передали аргумент {deep_link_link}.\n')
+
+
+@dp.message_handler(CommandStart(deep_link=None), IsPrivate())
 async def bot_start(message: types.Message):
-    await message.answer(f'Привет, {message.from_user.full_name}!')
+    bot_user = await dp.bot.get_me()
+    deep_link = f"http://t.me/{bot_user.username}?start123"
+    await message.answer(f'Привет, {message.from_user.full_name}!\n'
+                         f'Вы находитесь в личной переписке. \n'
+                         f'В вашей команде НЕТ диплинка.\n'
+                         f'Вы передали аргумент - {deep_link}')
