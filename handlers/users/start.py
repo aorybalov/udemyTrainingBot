@@ -1,6 +1,6 @@
 from aiogram import types
 from aiogram.dispatcher.filters.builtin import CommandStart
-from filters import IsPrivate
+from filters.private_chat import IsPrivate
 from loader import dp
 from re import compile
 

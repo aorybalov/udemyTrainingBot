@@ -1,5 +1,5 @@
 from aiogram import types
-from filters import IsPrivate
+from filters.private_chat import IsPrivate
 from loader import dp
 
 from data.config import admins
