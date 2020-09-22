@@ -24,9 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d1b314bb-b400-4d3e-a9c1-4207ee0461bd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filters/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/filters/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handlers/users/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/start.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +57,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Python.app">
@@ -150,22 +149,22 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="152" y="159" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1600334664432" />
-    <state width="1259" height="467" key="GridCell.Tab.0.bottom" timestamp="1600588328366">
+    <state width="1259" height="229" key="GridCell.Tab.0.bottom" timestamp="1600759871070">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="467" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1600588328366" />
-    <state width="1259" height="467" key="GridCell.Tab.0.center" timestamp="1600588328366">
+    <state width="1259" height="229" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1600759871070" />
+    <state width="1259" height="229" key="GridCell.Tab.0.center" timestamp="1600759871070">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="467" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1600588328366" />
-    <state width="1259" height="467" key="GridCell.Tab.0.left" timestamp="1600588328366">
+    <state width="1259" height="229" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1600759871070" />
+    <state width="1259" height="229" key="GridCell.Tab.0.left" timestamp="1600759871070">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="467" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1600588328366" />
-    <state width="1259" height="467" key="GridCell.Tab.0.right" timestamp="1600588328366">
+    <state width="1259" height="229" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1600759871070" />
+    <state width="1259" height="229" key="GridCell.Tab.0.right" timestamp="1600759871070">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="467" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1600588328366" />
+    <state width="1259" height="229" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1600759871070" />
     <state x="220" y="227" key="IDE.errors.dialog" timestamp="1600505936045">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
